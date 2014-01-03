@@ -1,0 +1,65 @@
+
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+
+//---------- Open Sans font ---------
+@font-face {
+   	font-family: 'open-sans';
+	src: url('/fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'open-sans-light';
+	src: url('/fonts/open-sans/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'open-sans-bold';
+	src: url('/fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'open-sans-extra-bold';
+	src: url('/fonts/open-sans/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+//---------- Proxima Nova font ---------
+@font-face {
+   	font-family: 'proxima-nova';
+	src: url('/fonts/proxima-nova/ProximaNova-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'proxima-nova-light';
+	src: url('/fonts/proxima-nova/ProximaNova-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'proxima-nova-bold';
+	src: url('/fonts/proxima-nova/ProximaNova-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+   	font-family: 'proxima-nova-extra-bold';
+	src: url('/fonts/proxima-nova/ProximaNova-Extrabold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,168 @@
+body {
+	padding: 20px;
+}
+h1, h2, h3 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.2;
+	font-weight: inherit;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-isze: 24px;
+}
+
+.links {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 30px;
+	background: #F9F9F9;
+	width: 100%;
+	//border-bottom: 2px solid #eee;
+	box-shadow: 0 -1px 5px rgba(0,0,0,0.6);
+}
+.link-block {
+	float: left;
+	width: 100%;
+
+	.link-button {
+		float: left;
+		border: 2px solid #ddd;
+		padding: 10px;
+		cursor: pointer;
+		margin-right: 20px;
+		color: #999;
+		border-radius: 5px;
+
+		&:hover {
+			background: #eee;
+		}
+		&.selected {
+			color: #29afd5;
+			border-color: #29afd5;
+		}
+	}
+	.font-link, .desc {
+		float: left;
+		text-decoration: none;
+		color: #CCC;
+		margin-right: 20px;
+		margin-top: 20px;
+		cursor: pointer;
+
+		&.active {
+			color: #29afd5;
+		}
+	}
+	.desc {
+		cursor: none;
+		color: black;
+	}
+}
+.fonts {
+	margin-top: 40px;
+}
+.block {
+	margin: 80px 0 0;
+	float: left;
+	width: 100%;
+}
+.lead {
+	font-size: 12px;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+// Fonts
+
+#open-sans {
+	&.regular {
+		font-family: 'open-sans';
+	}
+	&.light {
+		font-family: 'open-sans-light';
+	}
+	&.bold {
+		font-family: 'open-sans-bold';
+	}
+	&.extra-bold {
+		font-family: 'open-sans-extra-bold';
+	}
+}
+#proxima-nova {
+	&.regular {
+		font-family: 'proxima-nova';
+	}
+	&.light {
+		font-family: 'proxima-nova-light';
+	}
+	&.bold {
+		font-family: 'proxima-nova-bold';
+	}
+	&.extra-bold {
+		font-family: 'proxima-nova-extra-bold';
+	}
+}
+#roboto {
+	font-family: "Roboto";
+
+	&.regular {
+		font-weight: 400;
+	}
+	&.light {
+		font-weight: 100;
+	}
+	&.bold {
+		font-weight: 700;
+
+	}
+	&.extra-bold {
+		font-weight: 900;
+	}
+}
+#source-sans {
+	font-family: "Source Sans Pro";
+
+	&.regular {
+		font-weight: 400;
+	}
+	&.light {
+		font-weight: 100;
+	}
+	&.bold {
+		font-weight: 700;
+
+	}
+	&.extra-bold {
+		font-weight: 900;
+	}
+}
+#merriweather-sans {
+	font-family: "Merriweather Sans";
+
+	&.regular {
+		font-weight: 400;
+	}
+	&.light {
+		font-weight: 100;
+	}
+	&.bold {
+		font-weight: 700;
+
+	}
+	&.extra-bold {
+		font-weight: 900;
+	}
+}
